@@ -9,21 +9,22 @@
 	<header>
 		<div class="container">
 		<div id="brandname">
-			Credit Fraud checker...
+			<h1 style="color:black;">Credit Fraud checker...</h1>
+			
 		</div>
 		<h2>Spam Detector For SMS Messages</h2>
 		
 	</div>
 	</header>
-	<p style="color:blue;font-size:20;text-align: center;"><b>Dekh le bro...</b></p>
+	<p style="color:blue;font-size:20;text-align: center;"><b>Here is your Awaited result...</b></p>
 	<div class="results">
 
 
 		
 	{% if prediction == 1 %}
-	<h1 style="color:red;">Bach gaya bhai</h1>
+	<h1 style="color:blue;">According to model == Not a fraud trasaction..</h1>
 	{% elif prediction == -1%}
-	<h2 style="color:blue;">tere lag gaye hai bahi...</h2>
+	<h2 style="color:red;">According to model == A Fraud trasaction..</h2>
 	{% endif %}
 
 	</div>
